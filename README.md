@@ -12,7 +12,7 @@
 *  Execute the forestprep on the Schema master:
 `adprep32 /forestprep`
 
-*  Before you can run adprep /domainprep, you must be sure that the updates from /forestprep have replicated to all domain controllers in the forest.
+*  Before you can run adprep /domainprep, you must be sure that the updates from /forestprep have replicated to ALL domain controllers in the forest.
 
 *  Execute the domainprep on each domain's Infrastructure master:
 `adprep32 /domainprep`
