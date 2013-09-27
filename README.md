@@ -9,10 +9,10 @@
 *  Here is a copy of the support folder from the en_windows_server_2008_r2_with_sp1_x64_dvd_617601.iso which contains the adprep and adprep32 binaries
 [support_from_en_windows_server_2008_r2_with_sp1_x64_dvd_617601.iso.zip](http://cloud.ja.sonbarnett.com/3L3J063g3j1S/download/support_from_en_windows_server_2008_r2_with_sp1_x64_dvd_617601.iso.zip)
 
-*  Execute the forestprep on the Schema master:
+*  Execute the forestprep on the __Schema master__:
 `adprep32 /forestprep`
 
 *  Before you can run adprep /domainprep, you must be sure that the updates from /forestprep have replicated to ALL domain controllers in the forest.
 
-*  Execute the domainprep on each domain's Infrastructure master:
+*  Execute the domainprep on each domain's __Infrastructure master__:
 `adprep32 /domainprep`
