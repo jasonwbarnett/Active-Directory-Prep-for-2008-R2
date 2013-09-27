@@ -1,7 +1,7 @@
 *  How to find out which server holds which role:
 `netdom query /domain:corp.root fsmo`
 
-![netdom query /domain:corp.root fsmo](https://raw.github.com/jasonwbarnett/Active-Directory-Prep-for-2008-R2/master/netdom_query.png "netdom query /domain:corp.root fsmo")
+![netdom query /domain:corp.root fsmo](https://raw.github.com/jasonwbarnett/Active-Directory-Prep-for-2008-R2/master/netdom_query.jpg "netdom query /domain:corp.root fsmo")
 
 *  Verify Active Directory functionality before you apply the schema extension
 `repadmin /replsum /bysrc /bydest /sort:delta`
