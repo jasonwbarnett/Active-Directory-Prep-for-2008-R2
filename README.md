@@ -13,7 +13,7 @@
 
 *  Required roles of user running /forestprep: Schema Admins group, the Enterprise Admins group, and the Domain Admins group of the domain that hosts the schema master. [Windows Reference](http://technet.microsoft.com/en-us/library/dd464018.aspx#BKMK_R2Adprep)
 
-*  You may need to move the Schema owner role to a new domain controller in order to make it possible for a single user to be in all 3 required groups. [This doc](http://support.microsoft.com/kb/324801/en-us) describes how to transfer the Schema owner role to a new domain controller.
+*  You may need to move the Schema owner role to a new domain controller in order to make it possible for a single user to be in all 3 required groups. [This non microsoft site](http://usefulglyphs.wordpress.com/2010/01/04/how-to-move-fsmo-roles-between-domain-controllers/) and [this Microsoft doc](http://support.microsoft.com/kb/324801/en-us) describes how to transfer the Schema owner role to a new domain controller.
 
 *  Execute the forestprep on the __Schema master__:
 `adprep /forestprep` or `adprep32 /forestprep`
