@@ -9,6 +9,8 @@
 *  Here is a copy of the support folder from the en_windows_server_2008_r2_with_sp1_x64_dvd_617601.iso which contains the adprep and adprep32 binaries
 [support_from_en_windows_server_2008_r2_with_sp1_x64_dvd_617601.iso.zip](http://cloud.ja.sonbarnett.com/3L3J063g3j1S/download/support_from_en_windows_server_2008_r2_with_sp1_x64_dvd_617601.iso.zip)
 
+*  You may need to move the Schema owner role to a new domain controller in order to make it possible for a single user to have all 3 roles required. [This doc](http://support.microsoft.com/kb/324801/en-us) describes how to transfer the Schema owner role to a new domain controller.
+
 *  Execute the forestprep on the __Schema master__:
 `adprep /forestprep` or `adprep32 /forestprep`
 
