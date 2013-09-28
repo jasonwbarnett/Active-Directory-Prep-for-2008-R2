@@ -1,3 +1,5 @@
+*  Before you do anything, I suggest taking backups of at least one DC from each domain in your forest. [Here](http://usefulglyphs.wordpress.com/2009/11/13/how-to-backuprestore-a-windows-2003-domain-controller/) is a great tutorial for Server 2003.
+
 *  How to find out which server holds which role:
 `netdom query /domain:corp.root fsmo`
 
